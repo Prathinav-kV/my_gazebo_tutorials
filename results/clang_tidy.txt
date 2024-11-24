@@ -1,0 +1,1 @@
+22:04:21 ~/walker_ws/src/my_gazebo_tutorials/src (working_with_gazebo %) $ clang-format -style=Google -i walker_class.cpp

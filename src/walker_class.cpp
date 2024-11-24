@@ -41,8 +41,8 @@ class MovingState : public WalkerState {
 // TurningState class for when the robot is turning
 class TurningState : public WalkerState {
  public:
-  explicit TurningState(bool turn_clockwise) : turn_clockwise_(
-    turn_clockwise) {}
+  explicit TurningState(bool turn_clockwise)
+      : turn_clockwise_(turn_clockwise) {}
 
   void handle(WalkerClass &walker) override;
 

@@ -1,0 +1,2 @@
+22:02:56 ~/walker_ws/src/my_gazebo_tutorials (working_with_gazebo) $ cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -v "/build/" )
+Done processing ./src/walker_class.cpp
