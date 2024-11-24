@@ -29,7 +29,7 @@ class WalkerState {
    *
    * @param walker Reference to the WalkerClass instance.
    */
-  virtual void handle(const WalkerClass &walker) = 0;
+  virtual void handle(WalkerClass &walker) = 0;  // NOLINT(runtime/references)
 };
 
 // MovingState class for when the robot is moving forward

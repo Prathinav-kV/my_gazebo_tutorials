@@ -17,7 +17,7 @@ def generate_launch_description():
         # Start Gazebo with your custom world
         ExecuteProcess(
             cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so',
-                 '/home/pratkv/walker_ws/src/walker/worlds/newest_2.world'],
+                 '/home/pratkv/walker_ws/src/my_gazebo_tutorials/worlds/newest_2.world'],
             output='screen'
         ),
 
