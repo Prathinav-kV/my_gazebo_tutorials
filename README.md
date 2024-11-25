@@ -73,21 +73,6 @@ Clone the repository:
 cd ~/walker_ws/src
 git clone https://github.com/Prathinav-kV/my_gazebo_tutorials.git
 ```
-## IMPORTANT
-
-In a VScode please open the folder "my_gazebo_tutorials" which contains the 'walker' package:
-```bash
-cd ~/walker/src/my_gazebo_tutorials
-code .
-```
-Navigate to the launch/walker_bot.launch.py file:
-Please change the following line within the code to suit your system:
-- Line 20: '/home/pratkv/walker_ws/src/my_gazebo_tutorials/worlds/newest_2.world'
-- Change this according to the name of your user from 'pratkv' to your user_name
-
-Similarly for the file launch/replay_world.launch.py file:
-- Line 11: '/home/pratkv/walker_ws/src/my_gazebo_tutorials/worlds/newest_2.world'
-- Change this according to the name of your user from 'pratkv' to your user_name
 
 ### Navigate to the workspace and build the package:
 ```bash
