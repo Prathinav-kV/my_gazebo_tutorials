@@ -8,7 +8,7 @@ def generate_launch_description():
         ExecuteProcess(
             cmd=[
                 'gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so',
-                '/home/pratkv/walker_ws/src/my_gazebo_tutorials/worlds/newest_2.world'
+                'src/my_gazebo_tutorials/worlds/newest_2.world'
             ],
             output='screen'
         ),

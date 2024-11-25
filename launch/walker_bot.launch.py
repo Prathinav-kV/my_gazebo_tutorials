@@ -17,7 +17,7 @@ def generate_launch_description():
         # Start Gazebo with your custom world
         ExecuteProcess(
             cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so',
-                 '/home/pratkv/walker_ws/src/my_gazebo_tutorials/worlds/newest_2.world'],
+                 'src/my_gazebo_tutorials/worlds/newest_2.world'],
             output='screen'
         ),
 
@@ -39,7 +39,7 @@ def generate_launch_description():
         # Record a bag file (only if enabled)
         ExecuteProcess(
             condition=IfCondition(enable_bag_recording),
-            cmd=['ros2', 'bag', 'record', '-a', '--output', '/home/pratkv/walker_ws/results/walker_bag'],
+            cmd=['ros2', 'bag', 'record', '-a', '--output', 'results/walker_bag'],
             output='screen'
         )
     ])
